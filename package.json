@@ -1,0 +1,26 @@
+{
+  "name": "React-flux-es6-material-lite-phonecat-app",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "babelify": "^6.1.2",
+    "browserify": "^9.0.7",
+    "envify": "^3.4.0",
+    "flux": "^2.0.3",
+    "gulp": "^3.9.0",
+    "lodash": "^3.10.0",
+    "material-design-lite": "^1.0.0-3",
+    "react": "^0.13.0-rc2",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.8.0"
+  },
+  "scripts": {
+    "prestart": "npm i && gulp build",
+    "start": "http-server -a  0.0.0.0 -p 8000"
+  },
+  "author": "",
+  "license": "ISC"
+}
